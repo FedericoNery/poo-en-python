@@ -6,7 +6,8 @@ Si la clase no hereda de ABC o contiene por lo menos un método abstracto, Pytho
 """
 
 """
-Las subclases tienen que implementar todos los métodos abstractos, en el caso de que falta alguno de ellos Python no permitirá instancias tampoco la clase hija.
+Las subclases tienen que implementar todos los métodos abstractos, 
+en el caso de que falta alguno de ellos Python no permitirá instancias, tampoco en la clase hija.
 """
 class Animal(ABC):
 
@@ -36,3 +37,6 @@ class Gato(Animal):
 g = Gato()
 print(g.nombre)
 g.mover()
+
+a = Animal()
+

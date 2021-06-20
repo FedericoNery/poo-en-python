@@ -32,6 +32,8 @@ Tommy = PastorAleman()
 Piny = Caniche()
 Cuchele = Shepadoodle()
 Cuchele.ladrarx(5)
+Cuchele.ladrar()
+Cuchele.grunir()
 # Imprime guau guau guau (5 veces) porque heredo el ladrido de la clase padre CANICHE
 # Pero si eliminamos o renombramos el método ladrar de CANICHE que imprimiria?
 # Imprimiria el ladrido del Pastor_Aleman

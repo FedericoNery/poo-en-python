@@ -15,12 +15,19 @@ class Punto:
 		dy = self.y - otro.y
 		return (dx*dx + dy*dy)**0.5
 
+	def distanciaAlCentro(self):
+		pass
+
+	def cuadrante(self):
+		pass
+
 """
 	La función super() proporciona una referencia a la clase base
 """
 class Punto3D(Punto):
 	def __init__(self, x = 0, y = 0, z = 0):
-		super().__init__(x, y)
+		Punto.__init__(self, x, y)
+		#super().__init__(x, y)
 		self.z = z
 
 """	def distancia(self, otro):
@@ -31,5 +38,7 @@ class Punto3D(Punto):
 
 if __name__ == "__main__":
 	punto = Punto(5,5)
+	puntoA = Punto()
 	punto3d = Punto3D(6,6)
-	print(punto3d.distancia(punto))
+	#print(punto3d.distancia(punto))
+	#print(punto.distancia(puntoA))

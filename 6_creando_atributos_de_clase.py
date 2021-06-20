@@ -4,7 +4,7 @@ class MethodTypes:
     
     @classmethod
     def classMethod(cls):
-        # Access a class atribute through keyword cls
+        # Accede al atributo de clase a través de la palabra reservada cls
         cls.name = "Lagertha"
         print(cls.name)
 
