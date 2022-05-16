@@ -28,6 +28,10 @@ git clone url_repositorio
 
 git clone https://github.com/FedericoNery/poo-en-python.git
 ```
+Comando para verificar el estado de archivos y el working directory de git
+```
+git status
+```
 Comando para agregar un archivo al stage de git
 ``` 
 git add uri_archivo
@@ -44,8 +48,10 @@ Comando para enviar los commits que se hicieron locales a la rama del servidor r
 donde se hostea el repositorio
 ```
 git push 
+```
 
-"Y si no existe la rama que se está pusheando debemos ejecutar el siguiente comando"
+```...Y si no existe la rama que se está pusheando debemos ejecutar el siguiente comando```
+```
 git push --set-upstream origin nombre_rama 
 ```
 
